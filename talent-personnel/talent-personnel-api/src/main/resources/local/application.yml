@@ -1,0 +1,25 @@
+server:
+  port: 8089
+spring:
+  cloud:
+    consul:
+      host: 82.157.45.178 # consul 服务端的 ip
+      port: 8500 # consul 服务端的端口 默认8500
+      discovery:
+        service-name: ${spring.application.name} # 当前应用注册到consul的名称
+        prefer-ip-address: true # 注册ip
+  application:
+    name: talent-personnel-@maven.env@ # 应用名称
+  profiles:
+    active: @maven.env@
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    name: talent-personnel
+    url: jdbc:mysql://82.157.45.178:3306/talent_personnel?rewriteBatchedStatements=true&characterEncoding=utf8&useUnicode=true&useSSL=false&serverTimezone=Asia/Shanghai
+    username: root
+    password: Admin_talent
+#配置mybatis
+mybatisPlus:
+  #打印日志
+  configuration:
+    logImpl: org.apache.ibatis.logging.stdout.StdOutImpl

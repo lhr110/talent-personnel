@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="talent-personnel-api" />
+        <module name="talent-personnel-model" />
+        <module name="talent-personnel-core" />
+        <module name="talent-personnel-sdk" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="talent-personnel" target="1.5" />
+      <module name="talent-personnel-api" target="8" />
+      <module name="talent-personnel-core" target="1.8" />
+      <module name="talent-personnel-model" target="1.8" />
+      <module name="talent-personnel-sdk" target="1.8" />
+      <module name="talent-user-sdk" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="talent-personnel" options="-Amicronaut.processing.group=com.talent.personnel -Amicronaut.processing.module=talent-personnel" />
+      <module name="talent-personnel-api" options="-parameters" />
+      <module name="talent-personnel-core" options="-parameters" />
+      <module name="talent-personnel-model" options="-parameters" />
+      <module name="talent-personnel-sdk" options="-parameters" />
+    </option>
+  </component>
+</project>

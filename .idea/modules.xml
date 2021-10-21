@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/talent-personnel/talent-personnel.iml" filepath="$PROJECT_DIR$/talent-personnel/talent-personnel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/talent-personnel/talent-personnel-api/talent-personnel-api.iml" filepath="$PROJECT_DIR$/talent-personnel/talent-personnel-api/talent-personnel-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/talent-personnel/talent-personnel-core/talent-personnel-core.iml" filepath="$PROJECT_DIR$/talent-personnel/talent-personnel-core/talent-personnel-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/talent-personnel/talent-personnel-model/talent-personnel-model.iml" filepath="$PROJECT_DIR$/talent-personnel/talent-personnel-model/talent-personnel-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/talent-personnel/talent-personnel-sdk/talent-personnel-sdk.iml" filepath="$PROJECT_DIR$/talent-personnel/talent-personnel-sdk/talent-personnel-sdk.iml" />
+    </modules>
+  </component>
+</project>
